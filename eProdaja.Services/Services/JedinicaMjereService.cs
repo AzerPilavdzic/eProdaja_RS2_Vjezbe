@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using eProdaja.Controllers;
 using eProdaja.Model;
+using eProdaja.Model.Requests;
 using eProdaja.Model.SearchObjects;
 using eProdaja.Services.Database;
 using System;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace eProdaja.Services
 {
-    public class JedinicaMjereService : BaseService<Model.JediniceMjere, Database.JediniceMjere, JedinicaMjereSearchObject>, //IService<Model.JediniceMjere> 
+    public class JedinicaMjereService : BaseCRUDService<Model.JediniceMjere, Database.JediniceMjere, JedinicaMjereSearchObject, JediniceMjereUpsertRequest, JediniceMjereUpsertRequest>, //IService<Model.JediniceMjere> 
     //why object? because at this moment we dont care about filtering unit of measures
         IJedinicaMjereService
     {
@@ -31,7 +32,7 @@ namespace eProdaja.Services
                 filteredQuery = filteredQuery.Where(x => x.JedinicaMjereId == search.JedinicaMjereId);
             }
 
-           
+
 
             return filteredQuery;
         }
