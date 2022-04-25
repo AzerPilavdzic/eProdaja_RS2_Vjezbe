@@ -1,6 +1,8 @@
 using eProdaja.Controllers;
 using eProdaja.Services;
 using eProdaja.Services.Database;
+using eProdaja.Services.Interfaces;
+using eProdaja.Services.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +26,11 @@ builder.Services.AddTransient<IProizvodiService,ProizvodiService>();
 
 builder.Services.AddTransient<IKorisniciService, KorisniciService>();
 builder.Services.AddTransient<IJedinicaMjereService, JedinicaMjereService>();
+
+builder.Services.AddTransient<IVrsteProizvodumService, VrsteProizvodumService>();
+
+
+builder.Services.AddTransient<, >();
 
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<eProdajaContext>(options=>

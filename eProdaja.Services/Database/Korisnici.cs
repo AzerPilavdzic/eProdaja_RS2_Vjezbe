@@ -21,6 +21,7 @@ namespace eProdaja.Services.Database
         public string LozinkaHash { get; set; } = null!;
         public string LozinkaSalt { get; set; } = null!;
         public bool? Status { get; set; }
+        public bool State { get; set; }
 
         public virtual ICollection<Izlazi> Izlazis { get; set; }
         public virtual ICollection<KorisniciUloge> KorisniciUloges { get; set; }
