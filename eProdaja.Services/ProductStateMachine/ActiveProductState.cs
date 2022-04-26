@@ -1,4 +1,6 @@
-﻿using eProdaja.Model.Requests;
+﻿using AutoMapper;
+using eProdaja.Model.Requests;
+using eProdaja.Services.Database;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +11,8 @@ namespace eProdaja.Services.ProductStateMachine
 {
     public class ActiveProductState : BaseState
     {
+        public ActiveProductState(IServiceProvider serviceProvider, eProdajaContext context, IMapper mapper) : base(serviceProvider, context, mapper)
+        {
+        }
     }
 }

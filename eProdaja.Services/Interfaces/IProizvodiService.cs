@@ -12,5 +12,6 @@ namespace eProdaja.Services
     //public interface IProizvodiService : IService<Model.Proizvodi, ProizvodiSearchObject>
     public interface IProizvodiService : ICRUDService<Proizvodi,ProizvodiSearchObject,ProizvodiInsertRequest, ProizvodiUpdateRequest>
     {
+        Model.Proizvodi Activate(int id);
     }
 }

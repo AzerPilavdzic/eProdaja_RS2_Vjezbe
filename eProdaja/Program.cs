@@ -2,6 +2,7 @@ using eProdaja.Controllers;
 using eProdaja.Services;
 using eProdaja.Services.Database;
 using eProdaja.Services.Interfaces;
+using eProdaja.Services.ProductStateMachine;
 using eProdaja.Services.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,6 +14,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+//dependency injection za stanja objekta u CRUDu.
+builder.Services.AddTransient<BaseState>();
+builder.Services.AddTransient<InitialProductState>();
+builder.Services.AddTransient<DraftProductState>();
+builder.Services.AddTransient<ActiveProductState>();
 
 //implementacija auto mappera
 builder.Services.AddAutoMapper(typeof(IKorisniciService));
@@ -30,7 +38,7 @@ builder.Services.AddTransient<IJedinicaMjereService, JedinicaMjereService>();
 builder.Services.AddTransient<IVrsteProizvodumService, VrsteProizvodumService>();
 
 
-builder.Services.AddTransient<, >();
+//builder.Services.AddTransient<, >();
 
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<eProdajaContext>(options=>
