@@ -3,6 +3,7 @@ using eProdaja.Model;
 using Microsoft.AspNetCore.Mvc;
 using eProdaja.Model.SearchObjects;
 using eProdaja.Model.Requests;
+using Microsoft.AspNetCore.Authorization;
 
 namespace eProdaja.Controllers
 {
@@ -12,5 +13,19 @@ namespace eProdaja.Controllers
             : base(service)
         {
         }
+
+        [AllowAnonymous]
+        public override IEnumerable<JediniceMjere> Get([FromQuery] JedinicaMjereSearchObject search = null)
+        {
+            return base.Get(search);
+        }
+
+        [AllowAnonymous]
+        public override JediniceMjere GetById(int id)
+        {
+            return base.GetById(id);
+        }
+
+
     }
 }

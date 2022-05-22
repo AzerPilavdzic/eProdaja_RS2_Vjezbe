@@ -61,6 +61,15 @@ namespace eProdaja.Services
             return filteredQuery;
         }
 
+        public List<string> AllowedActions(int id)
+        {
+            var product = GetById(id);
+            var state = BaseState.CreateState(product.StateMachine);
+
+            return state.AllowedActions();
+
+        }
+
         public override IEnumerable<Model.Proizvodi> Get(ProizvodiSearchObject proizvodi)
         {
             return base.Get();

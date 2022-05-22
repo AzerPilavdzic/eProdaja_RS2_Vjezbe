@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja\\eProdaja.csproj": {}
+    "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja\\eProdaja.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Model\\eProdaja.Model.csproj": {
+    "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Model\\eProdaja.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Model\\eProdaja.Model.csproj",
+        "projectUniqueName": "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Model\\eProdaja.Model.csproj",
         "projectName": "eProdaja.Model",
-        "projectPath": "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Model\\eProdaja.Model.csproj",
+        "projectPath": "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Model\\eProdaja.Model.csproj",
         "packagesPath": "C:\\Users\\azzer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Model\\obj\\",
+        "outputPath": "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,14 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -65,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Services\\eProdaja.Services.csproj": {
+    "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Services\\eProdaja.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Services\\eProdaja.Services.csproj",
+        "projectUniqueName": "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Services\\eProdaja.Services.csproj",
         "projectName": "eProdaja.Services",
-        "projectPath": "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Services\\eProdaja.Services.csproj",
+        "projectPath": "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Services\\eProdaja.Services.csproj",
         "packagesPath": "C:\\Users\\azzer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Services\\obj\\",
+        "outputPath": "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,8 +101,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Model\\eProdaja.Model.csproj": {
-                "projectPath": "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Model\\eProdaja.Model.csproj"
+              "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Model\\eProdaja.Model.csproj": {
+                "projectPath": "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Model\\eProdaja.Model.csproj"
               }
             }
           }
@@ -153,14 +161,14 @@
         }
       }
     },
-    "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja\\eProdaja.csproj": {
+    "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja\\eProdaja.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja\\eProdaja.csproj",
+        "projectUniqueName": "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja\\eProdaja.csproj",
         "projectName": "eProdaja",
-        "projectPath": "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja\\eProdaja.csproj",
+        "projectPath": "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja\\eProdaja.csproj",
         "packagesPath": "C:\\Users\\azzer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja\\obj\\",
+        "outputPath": "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -181,11 +189,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Model\\eProdaja.Model.csproj": {
-                "projectPath": "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Model\\eProdaja.Model.csproj"
+              "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Model\\eProdaja.Model.csproj": {
+                "projectPath": "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Model\\eProdaja.Model.csproj"
               },
-              "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Services\\eProdaja.Services.csproj": {
-                "projectPath": "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Services\\eProdaja.Services.csproj"
+              "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Services\\eProdaja.Services.csproj": {
+                "projectPath": "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Services\\eProdaja.Services.csproj"
               }
             }
           }

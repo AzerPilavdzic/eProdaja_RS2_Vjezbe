@@ -8,3 +8,13 @@ C:\Users\azzer\source\repos\eProdaja\eProdaja.Model\obj\Debug\netstandard2.0\ePr
 C:\Users\azzer\source\repos\eProdaja\eProdaja.Model\obj\Debug\netstandard2.0\eProdaja.Model.csproj.CoreCompileInputs.cache
 C:\Users\azzer\source\repos\eProdaja\eProdaja.Model\obj\Debug\netstandard2.0\eProdaja.Model.dll
 C:\Users\azzer\source\repos\eProdaja\eProdaja.Model\obj\Debug\netstandard2.0\eProdaja.Model.pdb
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Model\bin\Debug\netstandard2.0\eProdaja.Model.deps.json
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Model\bin\Debug\netstandard2.0\eProdaja.Model.dll
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Model\bin\Debug\netstandard2.0\eProdaja.Model.pdb
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Model\obj\Debug\netstandard2.0\eProdaja.Model.csproj.AssemblyReference.cache
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Model\obj\Debug\netstandard2.0\eProdaja.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Model\obj\Debug\netstandard2.0\eProdaja.Model.AssemblyInfoInputs.cache
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Model\obj\Debug\netstandard2.0\eProdaja.Model.AssemblyInfo.cs
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Model\obj\Debug\netstandard2.0\eProdaja.Model.csproj.CoreCompileInputs.cache
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Model\obj\Debug\netstandard2.0\eProdaja.Model.dll
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Model\obj\Debug\netstandard2.0\eProdaja.Model.pdb

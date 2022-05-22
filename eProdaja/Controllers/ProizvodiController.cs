@@ -11,10 +11,26 @@ namespace eProdaja.Controllers
     //public class ProizvodiController : BaseController<Model.Proizvodi, ProizvodiSearchObject>
     public class ProizvodiController : BaseCRUDController<Model.Proizvodi, ProizvodiSearchObject, ProizvodiInsertRequest, ProizvodiUpdateRequest>
     {
+        public IProizvodiService  ProizvodiService { get; set; }
         public ProizvodiController(IProizvodiService proizvodiService)
         : base(proizvodiService)
-        {}
+        {
+        ProizvodiService = proizvodiService;
+        }
 
-       
+        [HttpPut("{id}/Activate")]
+        public Model.Proizvodi Activate(int id)
+        {
+            var result = ProizvodiService.Activate(id);
+            return result;
+        }
+
+        [HttpPut("{id}/AllowedActions")]
+        public List<string> AllowedActions(int id)
+        {
+            var result = ProizvodiService.AllowedActions(id);
+            return result;
+        }
+
     }
 }

@@ -14,6 +14,11 @@ namespace eProdaja.Services
         {
             CreateMap<Database.Korisnici, Model.Korisnici>();
 
+            //mapiranje u liniji 18 i 19 smo dodali kada smo pravili login sa 
+            //auth.
+            CreateMap<Database.KorisniciUloge, Model.KorisniciUloge>();
+            CreateMap<Database.Uloge, Model.Uloge>();
+
 
             CreateMap<Database.JediniceMjere, Model.JediniceMjere>();
             CreateMap<Database.Proizvodi, Model.Proizvodi>();
@@ -28,6 +33,9 @@ namespace eProdaja.Services
 
             CreateMap<KorisniciInsertRequest, Database.Korisnici>();
             CreateMap<KorisniciUpdateRequest, Database.Korisnici>();
+
+
+
         }
     }
 }

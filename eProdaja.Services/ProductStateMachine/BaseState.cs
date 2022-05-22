@@ -71,7 +71,7 @@ namespace eProdaja.Services.ProductStateMachine
         {
             return new List<string>();
         }
-
+         
 
     }
 }

@@ -21,9 +21,11 @@ namespace eProdaja.Services.Database
         public string LozinkaHash { get; set; } = null!;
         public string LozinkaSalt { get; set; } = null!;
         public bool? Status { get; set; }
-        public bool State { get; set; }
+        //public bool State { get; set; }
 
         public virtual ICollection<Izlazi> Izlazis { get; set; }
+
+        //line 29:::it is the table with userId and roleId
         public virtual ICollection<KorisniciUloge> KorisniciUloges { get; set; }
         public virtual ICollection<Ulazi> Ulazis { get; set; }
     }

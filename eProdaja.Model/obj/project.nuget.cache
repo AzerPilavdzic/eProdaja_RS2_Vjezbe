@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GOgU9RwZJMK7VnFdvFTAR5PIyegobiMtxeCR7WDGzK7s1ICr4dmRS+0fpNd+jWdiOp9G0ha4TG6aZz+Dt7npfQ==",
+  "dgSpecHash": "/mOaUucuEwI9ALpmmGPmDkuLjmuyVRMUKLVDtpXUHSM5i/sxdNXfAJWIleGsv3TM+/yxpGNQsB9ruRIOw2DFxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\azzer\\source\\repos\\eProdaja\\eProdaja.Model\\eProdaja.Model.csproj",
+  "projectFilePath": "C:\\Users\\azzer\\Desktop\\Moj github\\eProdaja_RS2_Vjezbe\\eProdaja.Model\\eProdaja.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\azzer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\azzer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\azzer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\azzer\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\azzer\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

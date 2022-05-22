@@ -1,0 +1,129 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "eProdaja.WinUI/1.0.0": {
+        "dependencies": {
+          "Flurl": "3.0.5",
+          "Flurl.Http": "3.2.3",
+          "eProdaja.Model": "1.0.0"
+        },
+        "runtime": {
+          "eProdaja.WinUI.dll": {}
+        }
+      },
+      "Flurl/3.0.5": {
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "assemblyVersion": "3.0.5.0",
+            "fileVersion": "3.0.5.0"
+          }
+        }
+      },
+      "Flurl.Http/3.2.3": {
+        "dependencies": {
+          "Flurl": "3.0.5",
+          "Newtonsoft.Json": "12.0.2",
+          "System.Text.Encoding.CodePages": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.Http.dll": {
+            "assemblyVersion": "3.2.3.0",
+            "fileVersion": "3.2.3.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.1.2": {},
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/5.0.0": {},
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {},
+      "System.Text.Encoding.CodePages/4.5.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        }
+      },
+      "eProdaja.Model/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "runtime": {
+          "eProdaja.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eProdaja.WinUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flurl/3.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CSROVbrfaHtqw1B7pvJfKvEgKOkx3fZj16a8fhKSWTJ/bwOT1EWnx6hcc+XzPVFNDR0d+XTa4bE7bIUhXHn1WQ==",
+      "path": "flurl/3.0.5",
+      "hashPath": "flurl.3.0.5.nupkg.sha512"
+    },
+    "Flurl.Http/3.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kwELhfTA4ivyD/tHVxyypeQOc76ISJEAHcx1gfN3QqUFaqxHjOOewurra7vBEUraMOneJsptxmfTHHO8LD2s0g==",
+      "path": "flurl.http/3.2.3",
+      "hashPath": "flurl.http.3.2.3.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mOJy3M0UN+LUG21dLGMxaWZEP6xYpQEpLuvuEQBaownaX4YuhH6NmNUlN9si+vNkAS6dwJ//N1O4DmLf2CikVg==",
+      "path": "microsoft.netcore.platforms/2.1.2",
+      "hashPath": "microsoft.netcore.platforms.2.1.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4J2JQXbftjPMppIHJ7IC+VXQ9XfEagN92vZZNoG12i+zReYlim5dMoXFC1Zzg7tsnKDM7JPo5bYfFK4Jheq44w==",
+      "path": "system.text.encoding.codepages/4.5.1",
+      "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    },
+    "eProdaja.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
