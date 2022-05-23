@@ -1,0 +1,17 @@
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\bin\Relase\net6.0\eProdaja.Services.deps.json
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\bin\Relase\net6.0\eProdaja.Services.runtimeconfig.json
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\bin\Relase\net6.0\eProdaja.Services.dll
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\bin\Relase\net6.0\eProdaja.Services.pdb
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\bin\Relase\net6.0\eProdaja.Model.dll
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\bin\Relase\net6.0\eProdaja.Model.pdb
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\obj\Relase\net6.0\eProdaja.Services.csproj.AssemblyReference.cache
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\obj\Relase\net6.0\eProdaja.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\obj\Relase\net6.0\eProdaja.Services.AssemblyInfoInputs.cache
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\obj\Relase\net6.0\eProdaja.Services.AssemblyInfo.cs
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\obj\Relase\net6.0\eProdaja.Services.csproj.CoreCompileInputs.cache
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\obj\Relase\net6.0\eProdaja.Services.csproj.CopyComplete
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\obj\Relase\net6.0\eProdaja.Services.dll
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\obj\Relase\net6.0\refint\eProdaja.Services.dll
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\obj\Relase\net6.0\eProdaja.Services.pdb
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\obj\Relase\net6.0\eProdaja.Services.genruntimeconfig.cache
+C:\Users\azzer\Desktop\Moj github\eProdaja_RS2_Vjezbe\eProdaja.Services\obj\Relase\net6.0\ref\eProdaja.Services.dll

@@ -498,7 +498,7 @@ namespace eProdaja.Services.Migrations
 
                     b.HasKey("SkladisteId");
 
-                    b.ToTable("Skladista");
+                    b.ToTable("Skladista", (string)null);
                 });
 
             modelBuilder.Entity("eProdaja.Services.Database.Ulazi", b =>
@@ -623,7 +623,7 @@ namespace eProdaja.Services.Migrations
 
                     b.HasKey("VrstaId");
 
-                    b.ToTable("VrsteProizvoda");
+                    b.ToTable("VrsteProizvoda", (string)null);
                 });
 
             modelBuilder.Entity("eProdaja.Services.Database.Izlazi", b =>
